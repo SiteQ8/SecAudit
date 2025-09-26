@@ -268,7 +268,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/SiteQ8/secaudit/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/SiteQ8/secaudit/discussions)
-- **Email**: security@example.com
+- **Email**: site@hotmail.com
 
 ## ⚠️ Disclaimer
 
