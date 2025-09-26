@@ -2,7 +2,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Security](https://img.shields.io/badge/security-focused-red.svg)](https://github.com/yourusername/secaudit)
+[![Security](https://img.shields.io/badge/security-focused-red.svg)](https://github.com/SiteQ8/secaudit)
 
 **SecAudit** is a comprehensive, open-source security assessment platform designed for cybersecurity professionals, penetration testers, and security researchers. It combines multiple security assessment vectors into a unified tool that provides actionable intelligence and detailed reporting.
 
@@ -37,7 +37,7 @@
 ### Quick Install
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/secaudit.git
+git clone https://github.com/SiteQ8/secaudit.git
 cd secaudit
 
 # Install dependencies
