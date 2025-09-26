@@ -266,8 +266,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/secaudit/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/secaudit/discussions)
+- **Issues**: [GitHub Issues](https://github.com/SiteQ8/secaudit/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/SiteQ8/secaudit/discussions)
 - **Email**: security@example.com
 
 ## ⚠️ Disclaimer
