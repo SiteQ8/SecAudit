@@ -1,6 +1,6 @@
 """
 Security Reporter Module
-Generates comprehensive security assessment reports in multiple formats
+Generates security assessment reports in multiple formats
 """
 
 import json
@@ -11,7 +11,7 @@ import os
 from pathlib import Path
 
 class SecurityReporter:
-    """Comprehensive security report generator"""
+    """Security report generator"""
 
     def __init__(self, config):
         self.config = config
@@ -26,7 +26,7 @@ class SecurityReporter:
                             format_type: str = 'all',
                             output_dir: str = 'reports') -> str:
         """
-        Generate comprehensive security assessment report
+        Generate security assessment report
 
         Args:
             results: Security assessment results

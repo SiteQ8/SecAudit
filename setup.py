@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Setup script for SecAudit - Comprehensive Security Assessment Platform
+Setup script for SecAudit - Security Assessment Platform
 """
 
 from setuptools import setup, find_packages
@@ -19,12 +19,11 @@ def read_requirements():
 setup(
     name="secaudit",
     version="1.0.0",
-    author="Cybersecurity Community",
-    author_email="security@example.com",
+    author="Ali AlEnezi",
     description="Comprehensive Security Assessment Platform",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/secaudit",
+    url="https://github.com/SiteQ8/SecAudit",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -47,8 +46,8 @@ setup(
     },
     keywords="security, vulnerability, assessment, penetration-testing, cybersecurity",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/secaudit/issues",
-        "Source": "https://github.com/yourusername/secaudit",
-        "Documentation": "https://github.com/yourusername/secaudit/wiki",
+        "Bug Reports": "https://github.com/SiteQ8/SecAudit/issues",
+        "Source": "https://github.com/SiteQ8/SecAudit",
+        "Documentation": "https://github.com/SiteQ8/SecAudit/wiki",
     },
 )

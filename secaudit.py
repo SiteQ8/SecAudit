@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-SecAudit - Comprehensive Security Assessment Platform
-A powerful cybersecurity tool for multi-vector security assessment
-Author: Cybersecurity Community
+SecAudit - Security Assessment Platform
+A cybersecurity tool for multi-vector security assessment
+Author: Ali AlEnezi
 Version: 1.0.0
 """
 
@@ -60,7 +60,7 @@ class SecAudit:
 
     async def run_assessment(self, target: str, scan_types: List[str] = None):
         """
-        Run comprehensive security assessment on target
+        Run security assessment on target
 
         Args:
             target: URL or domain to assess

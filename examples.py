@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 SecAudit Usage Examples
-Comprehensive examples of how to use SecAudit for various security assessments
+Examples of how to use SecAudit for various security assessments
 """
 
 import os

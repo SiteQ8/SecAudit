@@ -12,7 +12,7 @@ from datetime import datetime
 import re
 
 class WebSecurityScanner:
-    """Comprehensive web security scanner"""
+    """Web security scanner"""
 
     SECURITY_HEADERS = {
         'Content-Security-Policy': {
@@ -70,7 +70,7 @@ class WebSecurityScanner:
 
     async def scan(self, target: str) -> Dict[str, Any]:
         """
-        Perform comprehensive web security scan
+        Perform web security scan
 
         Args:
             target: URL or domain to scan

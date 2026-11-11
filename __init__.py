@@ -1,1 +1,1 @@
-"""SecAudit - Comprehensive Security Assessment Platform"""
+"""SecAudit - Security Assessment Platform"""

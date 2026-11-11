@@ -1,6 +1,6 @@
 """
 Security Logger Module
-Provides comprehensive logging for security assessment activities
+Provides logging for security assessment activities
 """
 
 import logging
@@ -11,7 +11,7 @@ import os
 from pathlib import Path
 
 class SecurityLogger:
-    """Advanced logging for security assessments"""
+    """Logging for security assessments"""
 
     def __init__(self, log_level: str = 'INFO', log_dir: str = 'logs'):
         self.log_level = getattr(logging, log_level.upper())
