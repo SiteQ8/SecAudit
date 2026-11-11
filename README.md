@@ -6,7 +6,7 @@
 
 **SecAudit** is a comprehensive, open-source security assessment platform designed for cybersecurity professionals, penetration testers, and security researchers. It combines multiple security assessment vectors into a unified tool that provides actionable intelligence and detailed reporting.
 
-## 🚀 Features
+## Features
 
 ### Multi-Vector Security Assessment
 - **Web Security Analysis**: HTTP security headers, SSL/TLS configuration, server information
@@ -26,13 +26,13 @@
 - **Industry Standards**: Follows OWASP, NIST, and other security frameworks
 - **Community Driven**: Designed with input from cybersecurity professionals
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8 or higher
 - Internet connection (for threat intelligence feeds)
 - Target websites/domains for assessment
 
-## 🔧 Installation
+## Installation
 
 ### Quick Install
 ```bash
@@ -62,7 +62,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 🚦 Quick Start
+## Quick Start
 
 ### Basic Usage
 ```bash
@@ -87,7 +87,7 @@ for target in $(cat targets.txt); do
 done
 ```
 
-## 📊 Example Output
+## Example Output
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════╗
@@ -107,7 +107,7 @@ done
 [REPORT] Report saved to: reports/secaudit_example_com_20241226_143022_executive.html
 ```
 
-## 🔍 Scan Types
+## Scan Types
 
 ### Web Security (`web`)
 - HTTP security headers analysis (CSP, HSTS, X-Frame-Options, etc.)
@@ -134,7 +134,7 @@ done
 - Priority-based recommendations
 - Executive risk summaries
 
-## 📈 Reports
+## Reports
 
 SecAudit generates multiple report formats:
 
@@ -154,7 +154,7 @@ SecAudit generates multiple report formats:
 - **JSON**: Machine-readable results for integration
 - **CSV**: Vulnerability data for spreadsheet analysis
 
-## ⚙️ Configuration
+## Configuration
 
 Create `secaudit.json` for custom configuration:
 
@@ -179,7 +179,7 @@ Create `secaudit.json` for custom configuration:
 }
 ```
 
-## 🔌 API Integration
+## API Integration
 
 SecAudit integrates with several free threat intelligence APIs:
 
@@ -187,16 +187,16 @@ SecAudit integrates with several free threat intelligence APIs:
 - **URLhaus**: Malicious URL detection
 - **MISP**: Threat intelligence platform integration (planned)
 
-## 🛡️ Security Considerations
+## Security Considerations
 
 - **Ethical Use**: Only scan systems you own or have explicit permission to test
 - **Rate Limiting**: Built-in delays to avoid overwhelming target systems  
 - **No Damage**: Designed for reconnaissance, not exploitation
 - **Privacy**: No data collection or external transmission of scan results
 
-## 📝 Logging
+## Logging
 
-SecAudit provides comprehensive logging:
+SecAudit provides logging:
 
 ```
 logs/
@@ -205,7 +205,7 @@ logs/
 └── threat_intel.log      # Threat intelligence logs
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the cybersecurity community!
 
@@ -223,14 +223,14 @@ We welcome contributions from the cybersecurity community!
 - Performance optimizations
 - Documentation enhancements
 
-## 📚 Documentation
+## Documentation
 
 - [Installation Guide](docs/installation.md)
 - [User Manual](docs/user-guide.md)
 - [API Documentation](docs/api.md)
 - [Developer Guide](docs/development.md)
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run basic tests
@@ -241,36 +241,36 @@ python -m pytest tests/test_web_scanner.py
 python -m pytest tests/test_threat_intel.py
 ```
 
-## 📊 Supported Platforms
+## Supported Platforms
 
 - **Linux**: Primary development platform
 - **macOS**: Full compatibility
 - **Windows**: Compatible with Windows 10/11
 
-## 🔄 Version History
+## Version History
 
 - **v1.0.0**: Initial release with core functionality
 - **v1.1.0**: Enhanced threat intelligence integration (planned)
 - **v1.2.0**: Advanced vulnerability detection (planned)
 
-## ⚖️ License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OWASP** for security testing methodologies
 - **NIST** for cybersecurity frameworks
 - **ThreatMiner** and **URLhaus** for free threat intelligence feeds
 - The cybersecurity community for inspiration and feedback
 
-## 📞 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/SiteQ8/secaudit/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/SiteQ8/secaudit/discussions)
 - **Email**: site@hotmail.com
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 SecAudit is intended for legal security testing and research purposes only. Users are responsible for ensuring they have proper authorization before scanning any systems. The developers assume no liability for misuse of this tool.
 
